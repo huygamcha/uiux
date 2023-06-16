@@ -1,0 +1,58 @@
+.flex {
+    display: flex;
+}
+
+body {}
+
+.flex-justify {
+    justify-content: center;
+}
+
+.flex-align {
+    align-items: center;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0 !important;
+}
+
+input {
+    border: none;
+}
+
+input[type="text"] {
+    height: 20px;
+}
+
+.mrt14 {
+    margin-top: 14px;
+}
+
+.pl0 {
+    padding-left: 0px;
+}
+
+.pr {
+    position: relative;
+}
+
+.pa {
+    position: absolute;
+}
+
+.collection-des {
+    top: 55%;
+    color: #fff;
+    left: 10%;
+}
+
+.collection-des-header {
+    font-size: 38px;
+    letter-spacing: 3px;
+}
+
+.collection-des-sub {
+    font-size: 15px;
+    max-width: 410px;
+}

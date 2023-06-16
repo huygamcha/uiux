@@ -1,0 +1,174 @@
+* {
+    padding: 0;
+    margin: 0;
+    outline: 0;
+    box-sizing: border-box;
+}
+
+.header {
+    position: fixed;
+    top: 0;
+    padding: 6px 150px;
+    justify-content: space-between;
+    align-items: center;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 1px 8px;
+    width: 100%;
+    background-color: #fff;
+    z-index: 99;
+}
+
+.header-home {
+    justify-content: space-between;
+}
+
+.header-home .header-find {
+    width: 456px;
+    align-items: center;
+    margin-left: 56px;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+}
+
+.header-find .header-find-text,
+.header-find .header-find-icon {
+    padding-left: 12px;
+}
+
+.header-find .header-find-text {
+    height: 20px;
+    line-height: 20px;
+}
+
+.header-select {
+    display: flex;
+    align-items: center;
+}
+
+.header-item {
+    font-size: 20px;
+    padding: 0 16px;
+}
+
+.header-icon-item {
+    padding: 0 16px;
+}
+
+.content {
+    margin: 180px 150px 0px 150px;
+}
+
+.content-header {}
+
+.content-header .content-header-wrap {}
+
+.content h1 {
+    text-transform: uppercase;
+    color: #000;
+    font-weight: 700;
+    background-color: #FF1C1A;
+    padding: 16px;
+    height: 100%;
+    display: inline-block;
+    color: #fff;
+    margin-top: 16px;
+    letter-spacing: 10px;
+
+}
+
+.ok {}
+
+.content-header span {
+    color: #a3a2a2;
+    margin-top: 70px;
+    max-width: 660px;
+    display: block;
+}
+
+
+.content-collection-background {
+    position: relative;
+}
+
+.content-collection-header {
+    padding: 0 150px;
+    position: absolute;
+    top: 13%;
+}
+
+.collection-img {
+    padding: 0 150px;
+    position: absolute;
+    top: 16%;
+}
+
+.collection-space {
+    padding: 0px 7px 7px;
+}
+
+.new-collection {
+    padding: 0 150px;
+}
+
+.new-collection .new-collection-header {
+    position: absolute;
+    top: 52%;
+}
+
+#icon-second {
+    position: absolute;
+    top: 55%;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-gap: 40px;
+    box-sizing: border-box;
+    height: 18.5rem;
+    width: calc(100% - 345px);
+    background-color: #fff;
+    overflow-x: scroll;
+    overflow-y: hidden;
+}
+
+#icon-second>div {
+    border-radius: 0.8rem;
+}
+
+.footer {
+    position: absolute;
+    top: 80%;
+    width: 100%;
+    justify-content: center;
+}
+
+.footer .footer-list {
+    padding: 0 60px;
+}
+
+.footer .footer-list li {
+    font-size: 20px;
+    color: #a3a2a2;
+}
+
+.footer .footer-list li:first-child {
+    color: #000;
+}
+
+.copyright {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    padding: 20px 150px;
+    background-color: rgb(245, 202, 209);
+    justify-content: space-between;
+}
+
+.copyright .admin-name {
+    padding-left: 16px;
+}
+
+.copyright .admin-name,
+.copyright .copyright-des {
+    font-size: 10px;
+    color: #a3a2a2;
+    line-height: 28px;
+
+}
