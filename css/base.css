@@ -35,11 +35,7 @@ input[type="text"] {
     position: absolute;
 }
 
-.collection-des {
-    top: 55%;
-    color: #fff;
-    left: 10%;
-}
+
 
 .collection-des-header {
     font-size: 38px;
@@ -51,8 +47,19 @@ input[type="text"] {
     max-width: 410px;
 }
 
+.header-item a {
+    color: #000;
+    text-decoration: none;
+    font-size: 30px;
+}
+
+.user-item a {
+    color: #000;
+    text-decoration: none;
+}
+
 .p7 {
-    padding: 0 7%;
+    padding: 1% 7%;
 }
 
 .w100 {
@@ -89,5 +96,20 @@ input[type="text"] {
 
 .boxshadow {
     box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+}
 
+.pl16 {
+    padding-left: 16px;
+}
+
+.pr16 {
+    padding-right: 16px;
+}
+
+.pt16 {
+    padding-top: 16px;
+}
+
+.pb16 {
+    padding-bottom: 16px;
 }

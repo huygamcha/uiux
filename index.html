@@ -28,19 +28,66 @@
         </div>
         <div class="header-select">
             <ul class="header-list flex">
-                <li class="header-item">Collections</li>
-                <li class="header-item">Categories</li>
-                <li class="header-item">Story</li>
+                <li class="header-item">
+                    <a href="">Collections</a>
+                </li>
+                <li class="header-item">
+                    <a href=""> Categories</a>
+                </li>
+                <li class="header-item">
+                    <a href=""> Story</a>
+                </li>
             </ul>
         </div>
-        <div class="header-icon flex">
+        <div class="header-icon flex position-relative">
             <div class="header-icon-item">
 
                 <img src="./img/Vector.png" alt="">
             </div>
-            <div class="header-icon-item">
-
+            <div class="header-icon-item user">
                 <img src="./img/1.png" alt="">
+            </div>
+            <div class="userone-show position-absolute">
+                <ul class="user-list">
+                    <li class="user-item">
+                        <img src="./img/user.png" alt="">
+                        <a href="">Hi Nam</a>
+                    </li>
+                    <li class="user-item">
+                        <img src="./img/grid.png" alt="">
+                        <a href="">Collection</a>
+                    </li>
+                    <li class="user-item">
+                        <img src="./img/grid.png" alt="">
+                        <a href=""> Categories</a>
+                    </li>
+                    <li class="user-item">
+                        <img src="./img/log-out.png" alt="">
+                        <a href=""> Categories</a>
+                    </li>
+                    <li class="user-item change-state">Change state</li>
+                </ul>
+            </div>
+            <div class="usertwo-show position-absolute">
+                <ul class="user-list">
+                    <li class="user-item">
+                        <img src="./img/grid.png" alt="">
+                        <a href="">Collection</a>
+                    </li>
+                    <li class="user-item">
+                        <img src="./img/grid.png" alt="">
+                        <a href="">Categories</a>
+                    </li>
+                    <li class="user-item">
+                        <img src="./img/log-in.png" alt="">
+                        <a href=""> Sign in</a>
+                    </li>
+                    <li class="user-item">
+                        <img src="./img/log-in.png" alt="">
+                        <a href=""> Sign up</a>
+                    </li>
+                    <li class="user-item change-state">Change state</li>
+                </ul>
             </div>
         </div>
     </div>
@@ -70,8 +117,8 @@
         <div class="collection-img flex  p7">
             <div class="collection-left w80">
                 <div class="collection-top flex">
-                    <div class="pr w33 h90">
-                        <img class="collection-space w100 h90 pl0" src="./img/lefttop.png" alt="">
+                    <div class="pr w33">
+                        <img class="collection-space w100 pr16 pb16" src="./img/lefttop.png" alt="">
                         <div class="collection-des pa">
                             <div class="collection-des-header">
                                 Warm hand
@@ -81,8 +128,8 @@
                             </div>
                         </div>
                     </div>
-                    <div class="pr w66 h90 ">
-                        <img class="collection-space w100 h90" src="./img/centertop.png" alt="">
+                    <div class="pr w66 ">
+                        <img class="collection-space w100 h100 pl16 pr16 pb16" src="./img/centertop.png" alt="">
 
                         <div class="collection-des pa">
                             <div class="collection-des-header">
@@ -98,7 +145,7 @@
                 <div class="collection-bottom flex">
 
                     <div class="pr w66">
-                        <img class="collection-space w100 h90 mrt14 pl0" src="./img/leftbottom.png" alt="">
+                        <img class="collection-space w100 h100 pr16 pt16" src="./img/leftbottom.png" alt="">
                         <div class="collection-des pa">
                             <div class="collection-des-header">
                                 Warm hand
@@ -110,7 +157,7 @@
                         </div>
                     </div>
                     <div class="pr w33">
-                        <img class="collection-space w100 h90 mrt14" src="./img/centerbottom.png" alt="">
+                        <img class="collection-space w100 h100 pt16 pr16 pl16" src="./img/centerbottom.png" alt="">
                         <div class="collection-des pa">
                             <div class="collection-des-header">
                                 Warm hand
@@ -124,7 +171,7 @@
             </div>
             <div class="collection-right w20">
                 <div class="pr w100 h100">
-                    <img class="collection-space w100 h95" src="./img/right.png" alt="">
+                    <img class="collection-space w100 h100 pl16" src="./img/right.png" alt="">
 
                     <div class="collection-des pa">
                         <div class="collection-des-header">
@@ -209,6 +256,7 @@
             </div>
         </div>
     </div>
+    <script src="./code.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
         crossorigin="anonymous"></script>
